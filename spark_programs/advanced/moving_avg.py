@@ -1,6 +1,6 @@
 '''
 Consider a scenario where you have a DataFrame containing stock market data for different stocks, and you want to calculate 
-the 30-day moving average for each stock based on their closing prices. 
+the 3-days moving average for each stock based on their closing prices. 
 Additionally, you want to identify stocks that have experienced a significant increase or decrease in price compared to their 
 moving average.
 '''
