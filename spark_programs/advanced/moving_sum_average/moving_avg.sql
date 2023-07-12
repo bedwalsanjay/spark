@@ -1,5 +1,10 @@
 /*
 
+Consider a scenario where you have a DataFrame containing stock market data for different stocks, and you want to calculate 
+the 3-days moving average for each stock based on their closing prices. 
+Additionally, you want to identify stocks that have experienced a significant increase or decrease in price compared to their 
+moving average.Conisder a change of +5 as a significant increase and -5 as a significant decrease in price
+
 ========
 INPUT
 ========
@@ -55,7 +60,8 @@ OUTPUT
 |        NFLX|2022-01-02|          998.50  |      499.25      |        498.50|No Significant Change|
 |        NFLX|2022-01-03|          1494.25 |      498.08      |        495.75|No Significant Change|
 |        NFLX|2022-01-04|          1492.45 |      497.48      |        493.20|No Significant Change|
-|        NFLX|2022-01-05|          1487.85 |      495.95      |        498.90|No                   | 
+|        NFLX|2022-01-05|          1487.85 |      495.95      |        498.90|No Significant Change|
++------------+----------+------------------+------------------+--------------+--------------------+
 
 */
 
