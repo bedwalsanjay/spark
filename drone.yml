@@ -6,5 +6,5 @@ steps:
 - name: testing
   image: alpine 
   commands:
-  - echo "Hello from Sanjay bedwal " 
+  - echo "Helloo from Sanjay bedwal " 
   
